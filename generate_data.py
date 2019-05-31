@@ -5,6 +5,15 @@ from random import choice, randint, random
 import calendar
 
 class Person:
+    """Toast some bread.
+
+    Parameters
+    ----------
+    slices : sequence of instance of partial bread
+        Slices to toast to toastiness level
+    toastiness : int
+        The desired toaster setting
+    """
     maxCI = 25
     # teenagers are hereby declared to be between 11 and 20 years old
     birthyears = range(1991,2000)
